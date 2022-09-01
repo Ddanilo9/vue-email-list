@@ -10,6 +10,6 @@ const app = new Vue({
                 this.ArrayMails.push(res.data.response)
                 console.log(ArrayMails)
             }) 
-        },
+        }
     },
 })
